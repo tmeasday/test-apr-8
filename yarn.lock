@@ -4186,10 +4186,9 @@ chownr@^1.1.1, chownr@^1.1.2:
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.1.4.tgz#6fc9d7b42d32a583596337666e7d08084da2cc6b"
   integrity sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg==
 
-chromatic@^4.0.0-alpha.0:
+chromatic@chromaui/chromatic-cli#next:
   version "4.0.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/chromatic/-/chromatic-4.0.0-alpha.2.tgz#71733ab1cd1ed5999c9b89d8fd57c7a55d09f259"
-  integrity sha512-FuMW4j7tQZ9lwfz9gcLLnNFecGNcBxmxHt+ruI9pYDsITLOgcvsYS/I7joR/QWxxTQc/simqaatGJyH5GPUcvA==
+  resolved "https://codeload.github.com/chromaui/chromatic-cli/tar.gz/eaf8a952f381163df986e40ff56f4e0689f4ff20"
   dependencies:
     "@babel/preset-react" "^7.9.4"
     "@babel/runtime" "^7.9.2"
@@ -4215,7 +4214,6 @@ chromatic@^4.0.0-alpha.0:
     node-fetch "^2.6.0"
     node-loggly-bulk "^2.2.4"
     npmlog "^4.1.2"
-    param-case "^3.0.3"
     pino "5.17.0"
     pkg-up "^3.1.0"
     progress "^2.0.3"
